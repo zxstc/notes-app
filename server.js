@@ -53,6 +53,7 @@ app.use(express.json(), cors());
 // Requiring note routes
 require('./app/routes/note.routes')(app);
 require('./app/routes/auth.routes')(app);
+require('./app/routes/login.routes')(app);
 
 
 // Define a simple route
